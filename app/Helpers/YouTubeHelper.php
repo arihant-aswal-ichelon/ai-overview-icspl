@@ -6,7 +6,7 @@ class YouTubeHelper{
 
     public static function get_yt_data_overall($request, $client_id, $start_date, $end_date, $yt_channel_id, $access_token){
 
-        $youtube_api_key = "AIzaSyAGMY5jnk_riNAmXRmCn65lweEs9v1vtMI";
+        $youtube_api_key = env('YOUTUBE_API_KEY');
         $youtube_metrics = array( 'views', 'estimatedMinutesWatched',  'averageViewDuration', 'comments', 'likes', 'dislikes', 'shares','subscribersGained', 'subscribersLost' );
 
         $curl = curl_init();
