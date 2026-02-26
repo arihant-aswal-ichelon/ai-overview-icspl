@@ -1,0 +1,13 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+
+.message_box {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.mdi_icon{
+    font-size: 17px;
+}
+.dataTables_scrollBody{min-height: 200px;}

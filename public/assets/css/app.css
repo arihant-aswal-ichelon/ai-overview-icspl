@@ -1,0 +1,11 @@
+.mt-10{
+    margin-top: 10px;
+}
+.mb-15{margin-bottom: 15px;}
+label{font-size: 18px;}
+.yt-video-data img{ max-width: 500px; margin: auto; }
+a.btn.section-active { background: #2385ba; }
+
+.bold-border-right-comprasion {
+    border-right: 4px solid black; 
+}

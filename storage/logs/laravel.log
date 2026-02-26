@@ -1,0 +1,247 @@
+[2026-02-26 10:43:29] local.ERROR: Job failed for keyword aayna clinic: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:43:31] local.ERROR: Job failed for keyword aayna: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:43:34] local.ERROR: Job failed for keyword aayna clinic gurgaon: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:43:37] local.ERROR: Job failed for keyword aayna clinic sda: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:43:40] local.ERROR: Job failed for keyword aayna sda: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:43:43] local.ERROR: Job failed for keyword aayna clinic khan market: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:43:45] local.ERROR: Job failed for keyword aayna clinic delhi: Undefined property: App\Jobs\ProcessKeywordStatusJob::$keywordPlannerId  
+[2026-02-26 10:49:22] local.INFO: Processed keyword: aayna clinic | keyword_planner_id: 1 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:25] local.INFO: Processed keyword: aayna | keyword_planner_id: 2 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:28] local.INFO: Processed keyword: aayna clinic gurgaon | keyword_planner_id: 5 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:39] local.INFO: Processed keyword: aayna clinic sda | keyword_planner_id: 9 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:41] local.INFO: Processed keyword: aayna sda | keyword_planner_id: 8 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:46] local.INFO: Processed keyword: aayna clinic khan market | keyword_planner_id: 10 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:48] local.INFO: Processed keyword: aayna clinic delhi | keyword_planner_id: 7 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:50] local.INFO: Processed keyword: aayna khan market | keyword_planner_id: 4 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:53] local.INFO: Processed keyword: aayna prive | keyword_planner_id: 3 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:49:55] local.INFO: Processed keyword: hydra facial price | keyword_planner_id: 6 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:50:04] local.INFO: Processed keyword: diet for glowing skin in 3 days | keyword_planner_id: 11 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:50:07] local.INFO: Processed keyword: aayna ludhiana | keyword_planner_id: 17 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:50:10] local.INFO: Processed keyword: aayna skin clinic | keyword_planner_id: 13 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:50:14] local.INFO: Processed keyword: ayana clinic | keyword_planner_id: 14 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:50:17] local.INFO: Processed keyword: korean facial in delhi | keyword_planner_id: 32 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:51:38] local.INFO: Processed keyword: aayna clinic | keyword_planner_id: 1 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:51:43] local.INFO: Processed keyword: aayna | keyword_planner_id: 2 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:51:46] local.INFO: Processed keyword: aayna clinic gurgaon | keyword_planner_id: 5 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:51:49] local.INFO: Processed keyword: aayna clinic sda | keyword_planner_id: 9 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:51:52] local.INFO: Processed keyword: aayna sda | keyword_planner_id: 8 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:51:57] local.INFO: Processed keyword: aayna clinic khan market | keyword_planner_id: 10 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:01] local.INFO: Processed keyword: aayna clinic delhi | keyword_planner_id: 7 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:03] local.INFO: Processed keyword: aayna khan market | keyword_planner_id: 4 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:06] local.INFO: Processed keyword: aayna prive | keyword_planner_id: 3 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:08] local.INFO: Processed keyword: hydra facial price | keyword_planner_id: 6 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:13] local.INFO: Processed keyword: diet for glowing skin in 3 days | keyword_planner_id: 11 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:15] local.INFO: Processed keyword: aayna ludhiana | keyword_planner_id: 17 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:17] local.INFO: Processed keyword: aayna skin clinic | keyword_planner_id: 13 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:21] local.INFO: Processed keyword: ayana clinic | keyword_planner_id: 14 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:26] local.INFO: Processed keyword: korean facial in delhi | keyword_planner_id: 32 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:36] local.INFO: Processed keyword: aayna prive experience | keyword_planner_id: 35 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 10:52:40] local.INFO: Processed keyword: anti aging foods for men | keyword_planner_id: 29 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:43] local.INFO: Processed keyword: aayna clinic near me | keyword_planner_id: 16 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:46] local.INFO: Processed keyword: aayana clinic | keyword_planner_id: 23 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:49] local.INFO: Processed keyword: aayna gurgaon | keyword_planner_id: 15 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:53] local.INFO: Processed keyword: hydra facial | keyword_planner_id: 21 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 10:52:55] local.INFO: Processed keyword: aaina clinic | keyword_planner_id: 22 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:52:58] local.INFO: Processed keyword: hydra facial gurgaon | keyword_planner_id: 12 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:05] local.INFO: Processed keyword: aayna clinic ludhiana | keyword_planner_id: 25 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:15] local.INFO: Processed keyword: aaynaclinic | keyword_planner_id: 1924 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:21] local.INFO: Processed keyword: hydra facial near me | keyword_planner_id: 27 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 10:53:24] local.INFO: Processed keyword: skin looks worse after hydrafacial | keyword_planner_id: 1914 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 10:53:27] local.INFO: Processed keyword: aayna clinic - best dermatology & aesthetics clinic in gurgaon | skin clinic in gurgaon | laser hair removal in gurgaon gurugram | keyword_planner_id: 34 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 10:53:32] local.INFO: Processed keyword: aayna clinic | best dermatology & aesthetics clinic in ludhiana | skin clinic in ludhiana| laser hair removal in ludhiana | keyword_planner_id: 1918 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:39] local.INFO: Processed keyword: laser hair removal near me | keyword_planner_id: 1917 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 10:53:41] local.INFO: Processed keyword: diet plan for glowing skin | keyword_planner_id: 19 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 10:53:44] local.INFO: Processed keyword: pumpkin peel facial cost | keyword_planner_id: 28 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:48] local.INFO: Processed keyword: aanya clinic | keyword_planner_id: 50 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:53] local.INFO: Processed keyword: anu kaushik | keyword_planner_id: 1915 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:56] local.INFO: Processed keyword: collagen facial | keyword_planner_id: 1919 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:53:58] local.INFO: Processed keyword: dr simal soin dermatologist | keyword_planner_id: 30 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:54:02] local.INFO: Processed keyword: dr simal soin skincare | keyword_planner_id: 1932 | AIO: No | Client Mentioned: No  
+[2026-02-26 10:54:06] local.INFO: Processed keyword: glowing skin diet plan | keyword_planner_id: 31 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 10:54:11] local.INFO: Processed keyword: hydrafacial | keyword_planner_id: 46 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 10:54:13] local.INFO: Processed keyword: hydrafacial near me | keyword_planner_id: 26 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:22:59] local.INFO: Processed keyword: aayna clinic | keyword_planner_id: 1 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:02] local.INFO: Processed keyword: aayna | keyword_planner_id: 2 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:06] local.INFO: Processed keyword: aayna clinic gurgaon | keyword_planner_id: 5 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:10] local.INFO: Processed keyword: aayna clinic sda | keyword_planner_id: 9 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:13] local.INFO: Processed keyword: aayna sda | keyword_planner_id: 8 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:20] local.INFO: Processed keyword: aayna clinic khan market | keyword_planner_id: 10 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:26] local.INFO: Processed keyword: aayna clinic delhi | keyword_planner_id: 7 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:31] local.INFO: Processed keyword: aayna khan market | keyword_planner_id: 4 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:34] local.INFO: Processed keyword: aayna prive | keyword_planner_id: 3 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:37] local.INFO: Processed keyword: hydra facial price | keyword_planner_id: 6 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:42] local.INFO: Processed keyword: diet for glowing skin in 3 days | keyword_planner_id: 11 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:46] local.INFO: Processed keyword: aayna ludhiana | keyword_planner_id: 17 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:48] local.INFO: Processed keyword: aayna skin clinic | keyword_planner_id: 13 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:52] local.INFO: Processed keyword: ayana clinic | keyword_planner_id: 14 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:23:56] local.INFO: Processed keyword: korean facial in delhi | keyword_planner_id: 32 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:01] local.INFO: Processed keyword: aayna prive experience | keyword_planner_id: 35 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:03] local.INFO: Processed keyword: anti aging foods for men | keyword_planner_id: 29 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:06] local.INFO: Processed keyword: aayna clinic near me | keyword_planner_id: 16 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:10] local.INFO: Processed keyword: aayana clinic | keyword_planner_id: 23 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:18] local.INFO: Processed keyword: aayna gurgaon | keyword_planner_id: 15 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:24] local.INFO: Processed keyword: hydra facial | keyword_planner_id: 21 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 11:24:32] local.INFO: Processed keyword: aaina clinic | keyword_planner_id: 22 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 11:24:36] local.INFO: Processed keyword: hydra facial gurgaon | keyword_planner_id: 12 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:48] local.INFO: Processed keyword: aayna clinic ludhiana | keyword_planner_id: 25 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:51] local.INFO: Processed keyword: aaynaclinic | keyword_planner_id: 1924 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:54] local.INFO: Processed keyword: hydra facial near me | keyword_planner_id: 27 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:24:57] local.INFO: Processed keyword: skin looks worse after hydrafacial | keyword_planner_id: 1914 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 11:25:01] local.INFO: Processed keyword: aayna clinic - best dermatology & aesthetics clinic in gurgaon | skin clinic in gurgaon | laser hair removal in gurgaon gurugram | keyword_planner_id: 34 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 11:25:04] local.INFO: Processed keyword: aayna clinic | best dermatology & aesthetics clinic in ludhiana | skin clinic in ludhiana| laser hair removal in ludhiana | keyword_planner_id: 1918 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:07] local.INFO: Processed keyword: laser hair removal near me | keyword_planner_id: 1917 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:09] local.INFO: Processed keyword: diet plan for glowing skin | keyword_planner_id: 19 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 11:25:12] local.INFO: Processed keyword: pumpkin peel facial cost | keyword_planner_id: 28 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:16] local.INFO: Processed keyword: aanya clinic | keyword_planner_id: 50 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:21] local.INFO: Processed keyword: anu kaushik | keyword_planner_id: 1915 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:23] local.INFO: Processed keyword: collagen facial | keyword_planner_id: 1919 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:29] local.INFO: Processed keyword: dr simal soin dermatologist | keyword_planner_id: 30 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:33] local.INFO: Processed keyword: dr simal soin skincare | keyword_planner_id: 1932 | AIO: No | Client Mentioned: No  
+[2026-02-26 11:25:38] local.INFO: Processed keyword: glowing skin diet plan | keyword_planner_id: 31 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 11:25:45] local.INFO: Processed keyword: hydrafacial | keyword_planner_id: 46 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 11:25:49] local.INFO: Processed keyword: hydrafacial near me | keyword_planner_id: 26 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:34] local.INFO: Processed keyword: aayna clinic | keyword_planner_id: 1 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:37] local.INFO: Processed keyword: aayna | keyword_planner_id: 2 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:40] local.INFO: Processed keyword: aayna clinic gurgaon | keyword_planner_id: 5 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:44] local.INFO: Processed keyword: aayna clinic sda | keyword_planner_id: 9 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:48] local.INFO: Processed keyword: aayna sda | keyword_planner_id: 8 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:51] local.INFO: Processed keyword: aayna clinic khan market | keyword_planner_id: 10 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:55] local.INFO: Processed keyword: aayna clinic delhi | keyword_planner_id: 7 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:08:58] local.INFO: Processed keyword: aayna khan market | keyword_planner_id: 4 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:00] local.INFO: Processed keyword: aayna prive | keyword_planner_id: 3 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:03] local.INFO: Processed keyword: hydra facial price | keyword_planner_id: 6 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:09] local.INFO: Processed keyword: diet for glowing skin in 3 days | keyword_planner_id: 11 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:12] local.INFO: Processed keyword: aayna ludhiana | keyword_planner_id: 17 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:15] local.INFO: Processed keyword: aayna skin clinic | keyword_planner_id: 13 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:18] local.INFO: Processed keyword: ayana clinic | keyword_planner_id: 14 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:21] local.INFO: Processed keyword: korean facial in delhi | keyword_planner_id: 32 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:23] local.INFO: Processed keyword: aayna prive experience | keyword_planner_id: 35 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:27] local.INFO: Processed keyword: anti aging foods for men | keyword_planner_id: 29 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:32] local.INFO: Processed keyword: aayna clinic near me | keyword_planner_id: 16 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:43] local.INFO: Processed keyword: aayana clinic | keyword_planner_id: 23 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:47] local.INFO: Processed keyword: aayna gurgaon | keyword_planner_id: 15 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:51] local.INFO: Processed keyword: hydra facial | keyword_planner_id: 21 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:09:55] local.INFO: Processed keyword: aaina clinic | keyword_planner_id: 22 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:09:58] local.INFO: Processed keyword: hydra facial gurgaon | keyword_planner_id: 12 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:03] local.INFO: Processed keyword: aayna clinic ludhiana | keyword_planner_id: 25 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:05] local.INFO: Processed keyword: aaynaclinic | keyword_planner_id: 1924 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:11] local.INFO: Processed keyword: hydra facial near me | keyword_planner_id: 27 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:13] local.INFO: Processed keyword: skin looks worse after hydrafacial | keyword_planner_id: 1914 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:10:17] local.INFO: Processed keyword: aayna clinic - best dermatology & aesthetics clinic in gurgaon | skin clinic in gurgaon | laser hair removal in gurgaon gurugram | keyword_planner_id: 34 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:10:21] local.INFO: Processed keyword: aayna clinic | best dermatology & aesthetics clinic in ludhiana | skin clinic in ludhiana| laser hair removal in ludhiana | keyword_planner_id: 1918 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:27] local.INFO: Processed keyword: laser hair removal near me | keyword_planner_id: 1917 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:32] local.INFO: Processed keyword: diet plan for glowing skin | keyword_planner_id: 19 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:10:37] local.INFO: Processed keyword: pumpkin peel facial cost | keyword_planner_id: 28 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:39] local.INFO: Processed keyword: aanya clinic | keyword_planner_id: 50 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:45] local.INFO: Processed keyword: anu kaushik | keyword_planner_id: 1915 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:48] local.INFO: Processed keyword: collagen facial | keyword_planner_id: 1919 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:10:58] local.INFO: Processed keyword: dr simal soin dermatologist | keyword_planner_id: 30 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:11:04] local.INFO: Processed keyword: dr simal soin skincare | keyword_planner_id: 1932 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:11:07] local.INFO: Processed keyword: glowing skin diet plan | keyword_planner_id: 31 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:11:15] local.INFO: Processed keyword: hydrafacial | keyword_planner_id: 46 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:11:24] local.INFO: Processed keyword: hydrafacial near me | keyword_planner_id: 26 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:12:56] local.INFO: 50 + 40  
+[2026-02-26 12:13:00] local.INFO: additionalKeywords: 90  
+[2026-02-26 12:13:00] local.INFO: alreadyExtracted: 40  
+[2026-02-26 12:13:00] local.INFO: newKeywordTexts: 50  
+[2026-02-26 12:13:00] local.INFO: allExtracted: 90  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: laser hair removal ludhiana with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1000  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: aayna clinic bangalore with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1001  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: aina clinic with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1002  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: anti ageing foods for men with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1003  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: collagen facial benefits with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1004  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: dr simal soin with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1005  
+[2026-02-26 12:13:00] local.INFO: Initializing cache for keyword: facial near me with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1006  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: glowing skin diet plan in marathi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1007  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydra facial side effects with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1008  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial in delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1009  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial ludhiana with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1010  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: pumpkin peel treatment cost with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1011  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: weight loss treatment with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1012  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic prices with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1013  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1014  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: anu kaushik makeup artist with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1015  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: chemical peel for pores with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1016  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: diet chart for glowing skin with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1017  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial benefits in kannada with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1018  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial machine with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1019  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: korean facial with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1020  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: korean facial near me with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1021  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: laser hair removal with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1022  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: simal soin dermatologist with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1023  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: skin treatment in delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1024  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic - best dermatology & aesthetics clinic in gurgaon | skin clinic in gurgaon | laser hair removal in gurgaon gurugram reviews with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1025  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic reviews with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1026  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic | best dermatology & aesthetics clinic in delhi | skin clinic in delhi | laser hair removal in delhi, ncr new delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1027  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic | dermatology & aesthetics clinic in delhi | skin clinic in delhi | laser hair removal in delhi, ncr new delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1028  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: ayana skin clinic with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1029  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: ayna clinic with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1030  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: best dermatologist in delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1031  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: brown spots on neck with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1032  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: dermaplaning delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1033  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: diet for glowing skin in 10 days with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1034  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydra facial age limit with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1035  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydra facial pros and cons with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1036  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial benefits with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1037  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial for acne scars with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1038  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: hydrafacial pros and cons with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1039  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: pumpkin facial cost with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1040  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: red light therapy delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1041  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: skin care diet plan with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1042  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: top 10 anti aging foods for male with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1043  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: ultherapy cost in india with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1044  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aaina aesthetic clinic with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1045  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aanya skin clinic with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1046  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic safdarjung with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1047  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: aayna clinic | best dermatology & aesthetics clinic in ludhiana | skin clinic in ludhiana| laser hair removal in ludhiana photos with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1048  
+[2026-02-26 12:13:01] local.INFO: Initializing cache for keyword: acne treatment in delhi with key: keyword_status_WnzZ9IgWaEtYLveq2l5yBtKf5pw2CIb0pYls3XMt_1049  
+[2026-02-26 12:13:06] local.INFO: Processed keyword: laser hair removal ludhiana | keyword_planner_id: 42 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:09] local.INFO: Processed keyword: aayna clinic bangalore | keyword_planner_id: 1930 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:12] local.INFO: Processed keyword: aina clinic | keyword_planner_id: 36 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:15] local.INFO: Processed keyword: anti ageing foods for men | keyword_planner_id: 43 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:18] local.INFO: Processed keyword: collagen facial benefits | keyword_planner_id: 1920 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:13:26] local.INFO: Processed keyword: dr simal soin | keyword_planner_id: 1929 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:13:29] local.INFO: Processed keyword: facial near me | keyword_planner_id: 1925 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:40] local.INFO: Processed keyword: glowing skin diet plan in marathi | keyword_planner_id: 1936 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:13:45] local.INFO: Processed keyword: hydra facial side effects | keyword_planner_id: 1926 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:13:48] local.INFO: Processed keyword: hydrafacial in delhi | keyword_planner_id: 1916 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:53] local.INFO: Processed keyword: hydrafacial ludhiana | keyword_planner_id: 47 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:13:58] local.INFO: Processed keyword: pumpkin peel treatment cost | keyword_planner_id: 1937 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:14:01] local.INFO: Processed keyword: weight loss treatment | keyword_planner_id: 1935 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:14:06] local.INFO: Processed keyword: aayna clinic prices | keyword_planner_id: 40 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:14:11] local.INFO: Processed keyword: aayna delhi | keyword_planner_id: 1923 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:14] local.INFO: Processed keyword: anu kaushik makeup artist | keyword_planner_id: 44 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:17] local.INFO: Processed keyword: chemical peel for pores | keyword_planner_id: 1938 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:19] local.INFO: Processed keyword: diet chart for glowing skin | keyword_planner_id: 38 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:14:21] local.INFO: Processed keyword: hydrafacial benefits in kannada | keyword_planner_id: 1939 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:14:25] local.INFO: Processed keyword: hydrafacial machine | keyword_planner_id: 48 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:33] local.INFO: Processed keyword: korean facial | keyword_planner_id: 24 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:14:36] local.INFO: Processed keyword: korean facial near me | keyword_planner_id: 39 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:39] local.INFO: Processed keyword: laser hair removal | keyword_planner_id: 1921 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:41] local.INFO: Processed keyword: simal soin dermatologist | keyword_planner_id: 1940 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:14:46] local.INFO: Processed keyword: skin treatment in delhi | keyword_planner_id: 1941 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:04] local.INFO: Processed keyword: aayna clinic - best dermatology & aesthetics clinic in gurgaon | skin clinic in gurgaon | laser hair removal in gurgaon gurugram reviews | keyword_planner_id: 1942 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:11] local.INFO: Processed keyword: aayna clinic reviews | keyword_planner_id: 1943 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:15] local.INFO: Processed keyword: aayna clinic | best dermatology & aesthetics clinic in delhi | skin clinic in delhi | laser hair removal in delhi, ncr new delhi | keyword_planner_id: 1944 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:21] local.INFO: Processed keyword: aayna clinic | dermatology & aesthetics clinic in delhi | skin clinic in delhi | laser hair removal in delhi, ncr new delhi | keyword_planner_id: 20 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:26] local.INFO: Processed keyword: ayana skin clinic | keyword_planner_id: 1931 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:31] local.INFO: Processed keyword: ayna clinic | keyword_planner_id: 33 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:36] local.INFO: Processed keyword: best dermatologist in delhi | keyword_planner_id: 37 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:15:41] local.INFO: Processed keyword: brown spots on neck | keyword_planner_id: 1945 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:15:48] local.INFO: Processed keyword: dermaplaning delhi | keyword_planner_id: 1946 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:15:53] local.INFO: Processed keyword: diet for glowing skin in 10 days | keyword_planner_id: 1947 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:15:57] local.INFO: Processed keyword: hydra facial age limit | keyword_planner_id: 1948 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:16:03] local.INFO: Processed keyword: hydra facial pros and cons | keyword_planner_id: 1949 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:16:08] local.INFO: Processed keyword: hydrafacial benefits | keyword_planner_id: 1927 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:16:12] local.INFO: Processed keyword: hydrafacial for acne scars | keyword_planner_id: 1950 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:16:17] local.INFO: Processed keyword: hydrafacial pros and cons | keyword_planner_id: 49 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:16:26] local.INFO: Processed keyword: pumpkin facial cost | keyword_planner_id: 1922 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:16:29] local.INFO: Processed keyword: red light therapy delhi | keyword_planner_id: 1951 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:16:40] local.INFO: Processed keyword: skin care diet plan | keyword_planner_id: 1952 | AIO: Yes | Client Mentioned: Yes  
+[2026-02-26 12:16:42] local.INFO: Processed keyword: top 10 anti aging foods for male | keyword_planner_id: 1953 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:16:46] local.INFO: Processed keyword: ultherapy cost in india | keyword_planner_id: 1954 | AIO: Yes | Client Mentioned: No  
+[2026-02-26 12:16:50] local.INFO: Processed keyword: aaina aesthetic clinic | keyword_planner_id: 45 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:16:53] local.INFO: Processed keyword: aanya skin clinic | keyword_planner_id: 1955 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:16:58] local.INFO: Processed keyword: aayna clinic safdarjung | keyword_planner_id: 41 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:17:06] local.INFO: Processed keyword: aayna clinic | best dermatology & aesthetics clinic in ludhiana | skin clinic in ludhiana| laser hair removal in ludhiana photos | keyword_planner_id: 1956 | AIO: No | Client Mentioned: No  
+[2026-02-26 12:17:09] local.INFO: Processed keyword: acne treatment in delhi | keyword_planner_id: 1957 | AIO: No | Client Mentioned: No  

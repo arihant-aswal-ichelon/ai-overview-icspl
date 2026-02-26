@@ -1,0 +1,1021 @@
+2026-02-16 12:37:55 -   2026-02-16 12:23:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:23 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:23:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:25 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:23:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:27 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:23:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:28 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:23:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:32 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:23:32 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:35 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:23:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:37 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:23:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:39 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:23:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:42 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:23:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:44 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:23:44 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:46 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:23:46 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:54 App\Jobs\ProcessKeywordStatusJob ............... 8s DONE
+  2026-02-16 12:23:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:23:56 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:23:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:00 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:24:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:02 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:24:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:05 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:24:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:11 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 12:24:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:13 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:24:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:14 App\Jobs\ProcessKeywordStatusJob ......... 820.09ms DONE
+  2026-02-16 12:24:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:19 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 12:24:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:21 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:24:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:22 App\Jobs\ProcessKeywordStatusJob ......... 988.86ms DONE
+  2026-02-16 12:24:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:28 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:24:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:34 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 12:24:34 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:37 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:24:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:38 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:24:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:40 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:24:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:42 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:24:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:48 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:24:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:52 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:24:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:55 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:24:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:24:59 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:24:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:07 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-16 12:25:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:09 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:25:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:12 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:25:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:13 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:25:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:25 App\Jobs\ProcessKeywordStatusJob .............. 12s DONE
+  2026-02-16 12:25:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:27 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:25:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:29 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:25:29 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:31 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:25:31 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:35 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:25:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:37 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:25:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:40 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:25:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:46 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:25:46 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:25:56 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-16 12:25:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:26:03 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-16 12:26:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:26:05 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:26:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:26:06 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:26:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:26:10 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:26:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:26:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+
+2026-02-16 12:38:01 - 
+2026-02-16 13:15:50 -   2026-02-16 12:41:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:07 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:41:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:08 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:41:08 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:13 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:41:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:21 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-16 12:41:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:24 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:41:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:28 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:41:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:30 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:41:30 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:33 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:41:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:37 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:41:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:39 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:41:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:41 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:41:41 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:43 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:41:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:41:51 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-16 12:41:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:00 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-16 12:42:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:06 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 12:42:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:07 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:42:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:09 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:42:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:10 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:42:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:42:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:14 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:42:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:20 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:42:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:26 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 12:42:26 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:33 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:42:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:39 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:42:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:42 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:42:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:45 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:42:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:47 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:42:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:48 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:42:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:51 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:42:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:53 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:42:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:42:57 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:42:57 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:00 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:43:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:02 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:43:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:04 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:43:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:06 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:43:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:17 App\Jobs\ProcessKeywordStatusJob .............. 10s DONE
+  2026-02-16 12:43:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:23 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:43:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:27 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:43:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:33 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 12:43:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:34 App\Jobs\ProcessKeywordStatusJob ......... 958.96ms DONE
+  2026-02-16 12:43:34 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:38 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:43:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:43 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 12:43:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:48 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:43:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:51 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:43:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:53 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 12:43:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:43:58 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 12:43:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:44:00 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:44:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:44:03 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 12:44:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:44:04 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 12:44:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 12:44:15 App\Jobs\ProcessKeywordStatusJob .............. 10s DONE
+
+2026-02-16 13:25:01 -   2026-02-16 13:17:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:17:59 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:17:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:00 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:18:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:02 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:18:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:04 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:09 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:18:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:15 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 13:18:15 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:17 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:24 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 13:18:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:27 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 13:18:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:31 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:18:31 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:33 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:18:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:36 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:40 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:18:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:43 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:45 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:50 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:18:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:52 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:54 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:18:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:18:56 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:18:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:03 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 13:19:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:05 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:19:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:08 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 13:19:08 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:12 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 13:19:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:17 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:19:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:22 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 13:19:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:24 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:19:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:26 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:19:26 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:30 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:19:30 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:32 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:19:32 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:34 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:19:34 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:36 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:19:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:38 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:19:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:48 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-16 13:19:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:54 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 13:19:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:19:58 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 13:19:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:00 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:20:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:03 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 13:20:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:06 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:20:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:09 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:20:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:10 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:20:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:20:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:13 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:20:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:18 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 13:20:18 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:21 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:20:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:23 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 13:20:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:25 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:20:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:37 App\Jobs\ProcessKeywordStatusJob .............. 11s DONE
+  2026-02-16 13:20:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:48 App\Jobs\ProcessKeywordStatusJob .............. 11s DONE
+  2026-02-16 13:20:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:50 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 13:20:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 13:20:54 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+
+2026-02-16 16:41:48 - 
+2026-02-17 16:10:39 -   2026-02-16 16:41:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:41:53 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:41:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:41:56 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:41:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:00 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:42:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:01 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:42:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:06 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:42:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:11 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 16:42:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:42:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:16 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 16:42:16 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:18 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:42:18 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:19 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:42:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:23 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:42:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:25 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:42:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:28 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:42:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:33 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 16:42:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:36 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 16:42:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:48 App\Jobs\ProcessKeywordStatusJob .............. 12s DONE
+  2026-02-16 16:42:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:52 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 16:42:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:42:55 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:42:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:00 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:43:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:02 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:43:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:06 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:43:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:13 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 16:43:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:18 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 16:43:18 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:20 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:43:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:22 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:43:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:29 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-16 16:43:29 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:33 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 16:43:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:38 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-16 16:43:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:42 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 16:43:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:44 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:43:44 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:48 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:43:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:51 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:43:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:56 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:43:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:43:58 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:43:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:01 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:03 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:44:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:07 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-16 16:44:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:09 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:10 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:44:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:17 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-16 16:44:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:20 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:22 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:24 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-16 16:44:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:28 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-16 16:44:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:35 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-16 16:44:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:51 App\Jobs\ProcessKeywordStatusJob .............. 15s DONE
+  2026-02-16 16:44:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:53 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:56 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:44:58 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-16 16:44:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-16 16:45:04 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+
+2026-02-23 12:21:27 -   2026-02-23 12:21:15 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:17 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:21:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:19 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:21:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:22 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:21:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:27 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+
+2026-02-23 12:22:16 -   2026-02-23 12:21:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:42 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:21:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:47 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:21:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:48 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:21:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:53 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:21:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:56 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:21:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:57 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:21:57 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:21:59 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:21:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:01 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:22:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:02 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:22:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:04 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:22:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:07 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:22:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:10 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:22:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:11 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:22:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:13 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:22:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:22:16 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+
+2026-02-23 12:35:22 -   2026-02-23 12:23:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:03 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:05 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:23:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:09 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:23:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:12 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:14 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:20 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:23:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:22 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:23 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:23:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:25 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:23:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:28 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:23:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:34 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:23:34 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:36 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:23:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:39 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:23:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:42 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:44 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:44 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:51 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 12:23:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:54 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:23:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:56 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:23:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:23:59 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:23:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:04 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:24:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:06 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:24:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:09 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:24:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:11 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:24:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:16 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:24:16 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:17 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:20 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:24:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:24 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:24:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:28 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:24:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:30 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:30 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:33 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:24:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:39 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:24:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:40 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:42 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:44 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:44 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:45 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:51 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:24:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:52 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:24:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:24:55 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:24:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:01 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:25:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:05 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:25:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:09 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:25:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:10 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:25:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:25:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:13 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:25:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:18 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:25:18 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:21 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:25:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:23 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:25:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:27 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:25:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:32 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:25:32 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:25:35 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:26:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:07 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:26:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:10 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:26:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:14 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:26:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:20 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:26:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:23 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:26:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:24 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:26:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:26 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:26:26 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:28 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:26:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:31 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:26:31 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:34 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:26:34 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:36 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:26:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:43 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 12:26:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:45 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:26:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:47 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:26:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:48 App\Jobs\ProcessKeywordStatusJob ......... 867.84ms DONE
+  2026-02-23 12:26:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:56 App\Jobs\ProcessKeywordStatusJob ............... 8s DONE
+  2026-02-23 12:26:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:26:59 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:26:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:00 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:27:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:03 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:05 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:08 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:27:08 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:10 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:27:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:17 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:27:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:21 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:27:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:29 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 12:27:29 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:33 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:27:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:35 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:27:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:37 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:39 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:41 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:27:41 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:43 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:46 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:46 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:47 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:27:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:51 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:27:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:54 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:27:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:56 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:27:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:27:59 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:27:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:12 App\Jobs\ProcessKeywordStatusJob .............. 12s DONE
+  2026-02-23 12:28:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:17 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:28:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:21 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:28:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:23 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:28:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:25 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:28:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:30 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:28:30 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:33 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:28:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:37 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:28:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:39 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:28:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:40 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:28:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:45 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:28:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:47 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:28:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:52 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:28:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:54 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:28:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:28:58 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:28:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:05 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 12:29:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:09 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:29:09 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:21 App\Jobs\ProcessKeywordStatusJob .............. 11s DONE
+  2026-02-23 12:29:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:23 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:29:23 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:25 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:29:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:33 App\Jobs\ProcessKeywordStatusJob ............... 8s DONE
+  2026-02-23 12:29:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:42 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-23 12:29:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:48 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 12:29:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:50 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:29:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:51 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:29:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:54 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:29:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:56 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:29:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:29:58 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:29:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:00 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:30:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:01 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:30:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:05 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:30:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:06 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:30:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:11 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:30:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:13 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:30:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:15 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:30:15 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:23 App\Jobs\ProcessKeywordStatusJob ............... 8s DONE
+  2026-02-23 12:30:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:25 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:30:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:30 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:30:30 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:35 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:30:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:40 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:30:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:43 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:30:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:47 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:30:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:49 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:30:49 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:30:52 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:30:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:00 App\Jobs\ProcessKeywordStatusJob ............... 8s DONE
+  2026-02-23 12:31:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:02 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:03 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:05 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:13 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 12:31:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:14 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:20 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:31:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:24 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:31:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:25 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:27 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:28 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:31:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:35 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 12:31:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:37 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:31:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:40 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:31:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:42 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:31:42 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:45 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:31:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:55 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-23 12:31:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:31:57 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:01 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:03 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:04 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:07 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:07 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:12 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:32:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:14 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:15 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:15 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:17 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:19 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:22 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:25 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:32:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:29 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:32:29 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:32 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:32 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:33 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:36 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:40 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:32:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:44 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:32:44 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:48 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:32:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:50 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:52 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:53 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:32:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:57 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:32:57 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:32:59 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:32:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:05 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:33:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:08 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:33:08 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:12 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:33:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:13 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:17 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:33:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:19 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:22 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:33:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:24 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:33:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:26 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:26 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:30 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:33:30 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:35 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:33:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:36 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:38 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:45 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 12:33:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:46 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:46 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:54 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 12:33:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:57 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:33:57 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:33:59 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:33:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:03 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:34:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:05 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:34:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:10 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:34:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:12 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:34:12 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:17 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:34:17 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:22 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:34:22 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:25 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:34:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:35 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-23 12:34:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:34:37 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+
+2026-02-23 12:35:42 -   2026-02-23 12:35:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:35:41 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:35:41 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:35:42 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+
+2026-02-23 12:38:53 - 
+2026-02-23 12:41:19 -   2026-02-23 12:39:25 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:31 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 12:39:31 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:34 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:39:34 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:36 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:39:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:38 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:39:38 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:41 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:39:41 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:43 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:39:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:45 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:39:45 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:48 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:39:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:53 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:39:53 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:56 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:39:56 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:39:58 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:39:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:00 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:40:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:02 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:40:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:04 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:40:04 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:06 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:40:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:10 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:40:10 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:14 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 12:40:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:15 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:40:15 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:18 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:40:18 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:20 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:40:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:21 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:40:21 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:24 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:40:24 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:31 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 12:40:31 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:49 App\Jobs\ProcessKeywordStatusJob .............. 17s DONE
+  2026-02-23 12:40:49 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:52 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 12:40:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:40:54 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 12:40:54 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:41:00 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 12:41:00 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:41:03 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:41:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:41:05 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:41:05 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:41:11 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 12:41:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:41:14 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 12:41:14 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 12:41:19 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+
+2026-02-23 13:41:31 -   2026-02-23 13:09:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:37 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:09:37 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:40 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 13:09:40 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:50 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-23 13:09:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:51 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:09:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:52 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:09:52 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:55 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:09:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:57 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:09:57 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:09:59 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:09:59 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:02 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:10:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:03 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:10:03 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:06 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:10:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:08 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:10:08 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:13 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:10:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:15 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:10:15 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:19 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 13:10:19 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:29 App\Jobs\ProcessKeywordStatusJob .............. 10s DONE
+  2026-02-23 13:10:29 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:31 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:10:31 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:35 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:10:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:41 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+  2026-02-23 13:10:41 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:43 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:10:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:46 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 13:10:46 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:48 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:10:48 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:51 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:10:51 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:55 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:10:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:10:58 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:10:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:02 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:11:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:13 App\Jobs\ProcessKeywordStatusJob .............. 10s DONE
+  2026-02-23 13:11:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:18 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:11:18 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:27 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-23 13:11:27 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:28 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:11:28 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:33 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:11:33 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:43 App\Jobs\ProcessKeywordStatusJob .............. 10s DONE
+  2026-02-23 13:11:43 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:47 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:11:47 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:50 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:11:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:11:55 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:11:55 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:02 App\Jobs\ProcessKeywordStatusJob ............... 7s DONE
+  2026-02-23 13:12:02 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:11 App\Jobs\ProcessKeywordStatusJob ............... 9s DONE
+  2026-02-23 13:12:11 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:13 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:12:13 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:16 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:12:16 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:20 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:12:20 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:32 App\Jobs\ProcessKeywordStatusJob .............. 12s DONE
+  2026-02-23 13:12:32 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:35 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:12:35 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:36 App\Jobs\ProcessKeywordStatusJob ............... 1s DONE
+  2026-02-23 13:12:36 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:39 App\Jobs\ProcessKeywordStatusJob ............... 3s DONE
+  2026-02-23 13:12:39 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:44 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:12:44 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:50 App\Jobs\ProcessKeywordStatusJob ............... 6s DONE
+  2026-02-23 13:12:50 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:12:58 App\Jobs\ProcessKeywordStatusJob ............... 8s DONE
+  2026-02-23 13:12:58 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:13:01 App\Jobs\ProcessKeywordStatusJob ............... 2s DONE
+  2026-02-23 13:13:01 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:13:06 App\Jobs\ProcessKeywordStatusJob ............... 4s DONE
+  2026-02-23 13:13:06 App\Jobs\ProcessKeywordStatusJob ............... RUNNING
+  2026-02-23 13:13:11 App\Jobs\ProcessKeywordStatusJob ............... 5s DONE
+
+2026-02-23 13:48:34 - 
+2026-02-23 13:50:26 - 
