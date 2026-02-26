@@ -56,10 +56,6 @@ class GenerateAIOPromptAnalysisController extends Controller
      */
     public function index($domainmanagement_id, $client_property_id, $keyword_request_id)
     {
-        $keyword_mentioned = Client_propertiesModel::where(
-            'domainmanagement_id',
-            $domainmanagement_id
-        )->value('keyword_mentioned_array');
         $medianResults = MedianFetch::where('median-fetch.client_property_id', $client_property_id)
             ->where('median-fetch.domainmanagement_id', $domainmanagement_id)
             ->where('median-fetch.keyword_request_id', $keyword_request_id)
@@ -110,7 +106,7 @@ class GenerateAIOPromptAnalysisController extends Controller
                 return $medianFetch;
             });
         // dd($medianResults->toArray());
-        return view('generate-aio-prompt-analysis.index', compact('keyword_mentioned','medianResults', 'client_property_id', 'domainmanagement_id', 'keyword_request_id'));
+        return view('generate-aio-prompt-analysis.index', compact('medianResults', 'client_property_id', 'domainmanagement_id', 'keyword_request_id'));
     }
     public function display_aio_prompt($domainmanagement_id, $client_property_id)
     {
@@ -119,6 +115,7 @@ class GenerateAIOPromptAnalysisController extends Controller
             'generated_prompts.client_property_id'  => $client_property_id,
         ])
         ->join('median-fetch', 'median-fetch.keyword_request_id', '=', 'generated_prompts.keyword_request_id')
+        ->where('median-fetch.bucket',1)
         ->select('generated_prompts.*', 'median-fetch.median_name')
         ->distinct('generated_prompts.id')
         ->get();
@@ -193,6 +190,11 @@ class GenerateAIOPromptAnalysisController extends Controller
         $cleanJson = trim(
             str_replace(['```json', '```'], '', $rawprompt)
         );
+        
+        $keyword_mentioned = Client_propertiesModel::where(
+            'domainmanagement_id',
+            $request->domainmanagement_id
+        )->value('keyword_mentioned_array');
 
         GeneratedPrompts::create([
             'domainmanagement_id'=>$request->domainmanagement_id,
@@ -212,7 +214,7 @@ class GenerateAIOPromptAnalysisController extends Controller
             'searches_count'  => 0,
         ];
 
-        return view('generate-aio-prompt-analysis.prompt-table', compact('results'));
+        return view('generate-aio-prompt-analysis.prompt-table', compact('keyword_mentioned','results'));
     }
     
     public function update_prompt(Request $request)

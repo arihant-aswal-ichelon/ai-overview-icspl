@@ -2752,9 +2752,13 @@ Your task is to:
         // Run the artisan command directly
         // For Laravel 7.x and above
         // Artisan::call('queue:restart');
-        Artisan::call('queue:work', [
-            '--queue' => 'keyword_processing',
-        ]);
+        Artisan::call('optimize:clear');
+        Artisan::call('cache:clear');
+        Artisan::call('config:clear');
+        Artisan::call('route:clear');
+        Artisan::call('queue:restart');
+        Artisan::call('queue:clear');
+        Artisan::call('queue:work');
 
         $output = Artisan::output();
 
@@ -2767,9 +2771,12 @@ Your task is to:
 
     public static function printAllTables()
     {
-
+        DB::table('generated_prompts')->truncate();
         // DB::table('keyword_planner')->whereIn('id', [176, 175])->delete();
-        $jobs = DB::table('ai_overview')->get();
+        // MedianFetch
+        dd('asas');
+
+        $jobs = DB::table('median-fetch')->get();
         foreach ($jobs as $job) {
             echo "<pre>";
             print_r($job);

@@ -129,7 +129,7 @@
                                         </option>
                                         @endforeach
                                         @else
-                                        <option value="" disabled>No domain cluster requests found</option>
+                                        <option value="" disabled>No Data found</option>
                                         @endif
                                     </select>
                                 </div>
