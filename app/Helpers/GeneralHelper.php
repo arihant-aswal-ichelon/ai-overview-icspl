@@ -4,6 +4,7 @@ namespace App\Helpers;
 use App\Models\AiOverview;
 use App\Models\Client_propertiesModel;
 use Auth;
+use Illuminate\Support\Facades\Auth as FacadesAuth;
 
 class GeneralHelper{
 
@@ -116,6 +117,12 @@ class GeneralHelper{
         }
     }
     
+    public static function getcustomerid(){
+        dd(session()->all());
+    }
+    public static function getmccid(){
+        return session()->all();
+    }
 
     public static function getaioResult($page_token, $engine = 'google_ai_overview'){
         try{

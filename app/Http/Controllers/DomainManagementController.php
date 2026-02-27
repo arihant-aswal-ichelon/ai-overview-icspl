@@ -14,9 +14,14 @@ class DomainManagementController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function __construct(GoogleSearchConsoleService $gscService)
+    public $gscService;
+    public function __construct(Request $request)
     {
-        $this->gscService = $gscService;
+        $customerId = DomainManagementModel::where('id', $request->domainmanagement_id)->value('customer_id');
+        $managerId = DomainManagementModel::where('id', $request->domainmanagement_id)->value('manager_id');
+
+        $this->gscService = new GoogleSearchConsoleService($customerId,$managerId);
+        // $this->gscService = $gscService;
     }
 
     public function index()
@@ -47,6 +52,8 @@ class DomainManagementController extends Controller
         $client->phone = $data["phone"];
         $client->email = $data["email"];
         $client->industry = $data["industry"];
+        $client->customer_id = $data['customer_id'];
+        $client->manager_id = $data['manager_id'];
         $scheduledSlug = '"' . str_replace(',', '","', $data["scheduled"]) . '"';
         $client->scheduled_slug = $scheduledSlug;
         $visitedSlug = '"' . str_replace(',', '","', $data["visited"]) . '"';
@@ -89,7 +96,7 @@ class DomainManagementController extends Controller
     {
         unset($_SESSION['lms_client_check']);
         $client_data = DomainManagementModel::with('Client_properties')->where("id", $id)->get();
-        // dd($client_data);
+
         return view("clients.show", compact("client_data"));
     }
 
@@ -131,6 +138,8 @@ class DomainManagementController extends Controller
         $client = DomainManagementModel::find($data['id']);
 
         $user = User::find($data['userid']);
+        $client->customer_id = $data['customer_id'];
+        $client->manager_id = $data['manager_id'];
 
 
         if(isset($request->name_update)){
@@ -234,12 +243,6 @@ class DomainManagementController extends Controller
                     $field[] = $key;
                 }
             }
-
-            // dd($field);
-
-            $statusController = new StatusController();
-            $data = $field;
-            $statusController->update($data,$client->id);
 
             $request->session()->flash("message", "Client has been Updated successfully");
             return redirect('/clients');

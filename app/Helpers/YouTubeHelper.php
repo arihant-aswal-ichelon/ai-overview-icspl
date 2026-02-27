@@ -9,7 +9,7 @@ class YouTubeHelper{
         $youtube_api_key = env('YOUTUBE_API_KEY');
         $youtube_metrics = array( 'views', 'estimatedMinutesWatched',  'averageViewDuration', 'comments', 'likes', 'dislikes', 'shares','subscribersGained', 'subscribersLost' );
 
-        $curl = curl_init();
+        $curl = curl_init();  
 
         curl_setopt_array($curl, array(
             CURLOPT_URL => 'https://youtubeanalytics.googleapis.com/v2/reports?endDate='.$end_date.'&ids=channel=='.$yt_channel_id.'&metrics='.implode(',', $youtube_metrics).'&sort=-estimatedMinutesWatched&startDate='.$start_date.'&key='.$youtube_api_key,

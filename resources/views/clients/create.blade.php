@@ -47,6 +47,15 @@
                                 <div class="col-md-12">
                                     <label for="validationDefault02" class="form-label">Slug <strong>(*Provide slug same as used in LMS for)</strong></label>
                                 </div>
+                                
+                                <div class="col-md-6">
+                                    <label for="customer_id" class="form-label">Customer ID*</label>
+                                    <input type="text" name="customer_id" class="form-control" id="customer_id" value="" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="manager_id" class="form-label">Manager ID*</label>
+                                    <input type="text" name="manager_id" class="form-control" id="manager_id" value="" required="">
+                                </div>
                                 <div class="col-md-4">
                                     <label for="validationDefault01" class="form-label">Appointment Scheduled*</label>
                                     <input type="text" name="scheduled" class="form-control" id="validationDefault01" value="" required="">

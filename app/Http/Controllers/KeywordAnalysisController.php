@@ -11,6 +11,7 @@ use App\Models\Ads;
 use App\Models\AiOverview;
 use App\Models\Client_propertiesModel;
 use App\Models\ClusterRequest;
+use App\Models\DomainManagementModel;
 use App\Models\GoogledataModel;
 use App\Models\KeywordPlanner;
 use App\Models\KeywordRequest;
@@ -26,6 +27,7 @@ use Google\Auth\Credentials\ServiceAccountCredentials;
 use Google\Client;
 use Illuminate\Http\Request;
 use Google\Service\Webmasters;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
@@ -51,8 +53,10 @@ class KeywordAnalysisController extends Controller
     private $whisperEndpoint = 'https://api.openai.com/v1/audio/transcriptions';
     private $chatEndpoint = 'https://api.openai.com/v1/chat/completions';
     private $geminiEndpoint;
+    public $gscService;
+    public $kpService;
 
-    public function __construct(Request $request, GoogleSearchConsoleService $gscService, KeywordPlannerService $kpService)
+    public function __construct(Request $request)
     {
         date_default_timezone_set('Asia/Kolkata');
         $this->openaiApiKey = env('OPENAI_API_KEY');
@@ -67,8 +71,11 @@ class KeywordAnalysisController extends Controller
         $this->openai = OpenAI::client(env('GEMINI_KEY'));
         $this->endpoints = [];
 
-        $this->gscService = $gscService;
-        $this->kpService = $kpService;
+        $customerId = DomainManagementModel::where('id', $request->domainmanagement_id)->value('customer_id');
+        $managerId = DomainManagementModel::where('id', $request->domainmanagement_id)->value('manager_id');
+
+        $this->gscService = new GoogleSearchConsoleService($customerId,$managerId);
+        $this->kpService = new KeywordPlannerService($customerId,$managerId);
     }
 
     public function index($id)
@@ -112,10 +119,10 @@ class KeywordAnalysisController extends Controller
             $request->session()->flash("error", "Unable to add client. Please try again later");
         }
     }
-    public function searchKeyword(KeywordPlannerService $kpService)
+    public function searchKeyword()
     {
         $keyword = "hair transplant";
-        $keyplan = $kpService->searchKeywords($keyword, 5);
+        $keyplan = $this->kpService->searchKeywords($keyword, 5);
         dd($keyplan);
     }
 
@@ -3433,13 +3440,11 @@ Your task is to:
     {
         try {
             // 1. Get GSC Performance Data
-            $kpService = new KeywordPlannerService();
-            $gscService = new GoogleSearchConsoleService();
 
             if ($startDate === null && $endDate == null) {
-                $gscKeywords = $gscService->getKeywordsByClicks($propertyUrl, $limit);
+                $gscKeywords = $this->gscService->getKeywordsByClicks($propertyUrl, $limit);
             } else {
-                $gscKeywords = $gscService->getKeywordsByClicks($propertyUrl, $limit, $startDate, $endDate);
+                $gscKeywords = $this->gscService->getKeywordsByClicks($propertyUrl, $limit, $startDate, $endDate);
             }
 
             // Extract just the keywords from GSC results
@@ -3456,9 +3461,9 @@ Your task is to:
 
             // Process batch of keywords
             if ($startDate === null && $endDate == null) {
-                $keywords = $kpService->getBulkKeywordData($propertyUrl, $keywords);
+                $keywords = $this->kpService->getBulkKeywordData($propertyUrl, $keywords);
             } else {
-                $keywords = $kpService->getBulkKeywordData($propertyUrl, $keywords, 1, $startDate, $endDate);
+                $keywords = $this->kpService->getBulkKeywordData($propertyUrl, $keywords, 1, $startDate, $endDate);
             }
             // dd($keywords);
             // Merge results
@@ -3516,7 +3521,10 @@ Your task is to:
     }
     public function hello()
     {
-        return $this->kpService->searchKeywordsByUrl('https://www.aaynaclinic.com');
+        $customerId = 4652169644;
+        $managerId = 8177415982;
+        $kpService = new KeywordPlannerService($customerId, $managerId);
+        return $kpService->searchKeywordsByUrl('https://www.aaynaclinic.com', $customerId, $managerId);
     }
     
     public function checkKeywordStatus(Request $request)
@@ -3563,12 +3571,15 @@ public function fetchKeywordPlannerKeywordsdata(Request $request)
             'domain_name' => 'required|string',
             'limit' => 'required|integer|min:1|max:100',
         ]);
+        
+        // $customerId = DomainManagementModel::where('id', $request->domainmanagement_id)->value('customer_id');
+        // $managerId = DomainManagementModel::where('id', $request->domainmanagement_id)->value('manager_id');
 
         // Get keyword planner service
-        $keywordPlannerService = app(KeywordPlannerService::class);
+        // $keywordPlannerService = new KeywordPlannerService($customerId, $managerId);
         
         // Fetch keywords from keyword planner
-        $keywords = $keywordPlannerService->searchKeywordsByUrl(
+        $keywords = $this->kpService->searchKeywordsByUrl(
             $request->domain_name,
             $request->limit,
             $request->date_from ?? now()->subMonths(12)->format('Y-m-d'),

@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Helpers\GeneralHelper;
 use DateTime;
 use DateTimeZone;
 use Exception;
@@ -23,6 +24,7 @@ use Google\Ads\GoogleAds\V21\Enums\MonthEnum\Month;
 use Google\Ads\GoogleAds\V21\Enums\MonthOfYearEnum\MonthOfYear as MonthOfYearEnumMonthOfYear;
 use Google\Ads\GoogleAds\V21\Services\GenerateKeywordHistoricalMetricsRequest;
 use GPBMetadata\Google\Ads\GoogleAds\V21\Enums\MonthOfYear;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\FacadesLog;
 use ReflectionClass;
@@ -32,23 +34,22 @@ class KeywordPlannerService
     private $googleAdsClient;
     private $customerId;
     private $developerToken;
-    private $loginCustomerId;
+    private $managerId;
     
-    public function __construct($configPath = null)
+    public function __construct($customerId=null,$managerId=null,$configPath = null)
     {
         if ($configPath === null) {
             $configPath = __DIR__ . '/google_ads_php.ini';
         }
         
+        $this->managerId = $managerId;
+        $this->customerId = $customerId;
         $config = parse_ini_file($configPath, true);
         // Load configuration from environment or config file
-        $this->customerId = $config['GOOGLE_ADS']['linkedCustomerId'];
         $this->developerToken = $config['GOOGLE_ADS']['developerToken'];
-        $this->loginCustomerId = $config['GOOGLE_ADS']['loginCustomerId'];
         
         // Build the client
         $this->googleAdsClient = $this->buildClient();
-        // dd($this->googleAdsClient);
     }
     
     private function buildClient()
@@ -70,7 +71,7 @@ class KeywordPlannerService
             // Build the Google Ads client
             return (new GoogleAdsClientBuilder())
                 ->withDeveloperToken($this->developerToken)
-                ->withLoginCustomerId($this->loginCustomerId)
+                ->withLoginCustomerId($this->managerId)
                 ->withOAuth2Credential($oAuth2Credential)
                 ->build();
                 
@@ -560,7 +561,7 @@ class KeywordPlannerService
             $count = 0;
             
             // Initialize GSC Service for getting keyword metrics
-            $gscService = app(\App\Services\GoogleSearchConsoleService::class);
+            // $gscService = app(\App\Services\GoogleSearchConsoleService::class);
             
             foreach ($response->iterateAllElements() as $result) {
                 $keywordText = $result->getText();

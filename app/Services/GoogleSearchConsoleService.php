@@ -19,10 +19,14 @@ class GoogleSearchConsoleService
     protected $client;
     protected $service;
     protected $property;
+    protected $customerId;
+    protected $managerId;
 
-    public function __construct()
+    public function __construct($customerId, $managerId)
     {
         $this->client = new Client();
+        $this->customerId = $customerId;
+        $this->managerId = $managerId;
         // $this->client->setAuthConfig('C:\xampp\htdocs\cbo\storage\app\google-analytics.json');
         $this->client->setAuthConfig(storage_path('app/google-analytics.json'));
         $this->client->addScope('https://www.googleapis.com/auth/webmasters');
