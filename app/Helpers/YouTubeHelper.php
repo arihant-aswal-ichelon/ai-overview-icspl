@@ -1,7 +1,7 @@
 <?php
 namespace App\Helpers;
 use Auth;
-
+ 
 class YouTubeHelper{
 
     public static function get_yt_data_overall($request, $client_id, $start_date, $end_date, $yt_channel_id, $access_token){
