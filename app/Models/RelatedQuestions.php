@@ -16,6 +16,7 @@ class RelatedQuestions extends Model
         'keyword_request_id',
         'keyword_planner_id',
         'cluster_request_id',
+        'history_log_id',
         'question',
         'answer',
         'source_title',

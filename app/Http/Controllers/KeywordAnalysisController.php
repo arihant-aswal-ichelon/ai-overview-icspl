@@ -180,8 +180,10 @@ class KeywordAnalysisController extends Controller
         // Store keyword_request_id in session for later use
         session(['keyword_request_id' => $keyword_request_id]);
 
-
-        $filters = $request->only(['min_searches', 'max_searches', 'competition', 'min_bid', 'max_bid', 'date_from', 'date_to', 'min_clicks', 'max_clicks', 'min_ctr', 'max_ctr', 'min_impressions', 'max_impressions']);
+        $filters = array_filter(
+            $request->only(['min_searches', 'max_searches', 'competition', 'min_bid', 'max_bid', 'date_from', 'date_to', 'min_clicks', 'max_clicks', 'min_ctr', 'max_ctr', 'min_impressions', 'max_impressions']),
+            fn($value) => !is_null($value) && $value !== ''
+        );
         // Get the keywords based on URL or keyword
         if (!empty($url) && empty($keyword)) {
             $keyplan = $this->enrichWithGscData(null, $url, $request->date_from ?? null, $request->date_to ?? null, $limit);
@@ -198,10 +200,13 @@ class KeywordAnalysisController extends Controller
             }
         }
 
+        // dd($keyplan);
 
         $extractedKeywords = array_map(function ($item) {
             return $item['keyword'] ?? $item['query'] ?? '';
         }, $keyplan);
+        // dd($extractedKeywords, $keyplan);
+
 
         session(['extracted_keywords' => $extractedKeywords]);
 
@@ -663,13 +668,14 @@ class KeywordAnalysisController extends Controller
     {
         return array_filter($keywords, function ($item) use ($filters) {
             // Monthly searches filter
-            if (isset($filters['min_searches']) && $filters['min_searches'] !== '' && $item['avg_monthly_searches'] < $filters['min_searches']) {
+            if (isset($filters['min_searches']) && $filters['min_searches'] !== '' && $filters['min_searches'] !== null && $item['avg_monthly_searches'] < $filters['min_searches']) {
                 return false;
             }
-
-            if (isset($filters['max_searches']) && $filters['max_searches'] !== '' && $item['avg_monthly_searches'] > $filters['max_searches']) {
+            
+            if (isset($filters['max_searches']) && $filters['max_searches'] !== '' && $filters['max_searches'] !== null && $item['avg_monthly_searches'] > $filters['max_searches']) {
                 return false;
             }
+            // dd($item);
 
             // Competition filter
             if (isset($filters['competition']) && !empty($filters['competition']) && $item['competition'] !== $filters['competition']) {

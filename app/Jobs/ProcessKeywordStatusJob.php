@@ -9,6 +9,7 @@ use App\Models\Client_propertiesModel;
 use App\Models\OrganicResult;
 use App\Models\RelatedQuestions;
 use App\Models\RelatedSearches;
+use App\Models\HistoryLog;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -28,9 +29,10 @@ class ProcessKeywordStatusJob implements ShouldQueue
     protected $sessionId;
     protected $index;
     protected $keyword_planner_id;
+    protected $historyLogId;
 
 
-    public function __construct($keyword, $keywordRequestId, $clientPropertyId, $domainManagementId, $sessionId, $index, $keyword_planner_id)
+    public function __construct($keyword, $keywordRequestId, $clientPropertyId, $domainManagementId, $sessionId, $index, $keyword_planner_id, $historyLogId = null)
     {
         $this->keyword = $keyword;
         $this->keywordRequestId = $keywordRequestId;
@@ -39,6 +41,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
         $this->sessionId = $sessionId;
         $this->index = $index;
         $this->keyword_planner_id = $keyword_planner_id;
+        $this->historyLogId = $historyLogId;
     }
 
     public function handle()
@@ -109,6 +112,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
             if ($hasAio && $aiOverviewData) {
                 AiOverview::where('keyword_planner_id', $this->keyword_planner_id)->whereNull('cluster_request_id')
                     ->update(['priority_sync' => '0']);
+                
                 AiOverview::create([
                     'domainmanagement_id' => $this->domainManagementId,
                     'client_property_id' => $this->clientPropertyId,
@@ -118,8 +122,9 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         json_encode($aiOverviewData['text_blocks'], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) : null,
                     'json' => json_encode($aiOverviewData, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
                     'markdown' => $aiOverviewData['markdown'] ?? null,
+                    'history_log_id' => $this->historyLogId,
                 ]);
-                
+
                 $keywordPlanner->update(['ai_status' => '1']);
             } else {
                 $keywordPlanner->update(['ai_status' => '0']);
@@ -134,6 +139,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         'client_property_id' => $this->clientPropertyId,
                         'keyword_request_id' => $this->keywordRequestId,
                         'keyword_planner_id' => $this->keyword_planner_id,
+                        'history_log_id' => $this->historyLogId,
                         'position' => $result['position'] ?? null,
                         'title' => $result['title'] ?? null,
                         'link' => $result['link'] ?? null,
@@ -172,6 +178,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         'client_property_id' => $this->clientPropertyId,
                         'keyword_planner_id' => $this->keyword_planner_id,
                         'keyword_request_id' => $this->keywordRequestId,
+                        'history_log_id' => $this->historyLogId,
                         'question' => $question['question'] ?? null,
                         'answer' => isset($question['answer']) ? $question['answer'] : ($question['markdown'] ?? null),
                         'source_title' => $question['source']['title'] ?? null,
@@ -202,6 +209,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         'client_property_id' => $this->clientPropertyId,
                         'keyword_planner_id' => $this->keyword_planner_id,
                         'keyword_request_id' => $this->keywordRequestId,
+                        'history_log_id' => $this->historyLogId,
                         'query' => $relatedSearch['query'] ?? null,
                         'link' => $relatedSearch['link'] ?? null,
                         'json' => $relatedSearch ? json_encode($relatedSearch, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) : null,
@@ -249,6 +257,17 @@ class ProcessKeywordStatusJob implements ShouldQueue
                 'keyword_planner_id' => $this->keyword_planner_id,
                 'processed_at' => now()->toDateTimeString()
             ], now()->addHours(24));
+
+
+            if ($this->historyLogId !== null) {
+                HistoryLog::where('id', $this->historyLogId)->update([
+                    'keyword_planner_id' => $this->keyword_planner_id,
+                    'aio_status' => $hasAio ? '1' : '0',
+                    'search_status' => $searchData ? '1' : '0',
+                    'updated_at'         => now(),
+                ]);
+                Log::info("HistoryLog updated | history_log_id: {$this->historyLogId} | keyword_planner_id: {$this->keyword_planner_id}");
+            }
 
             Log::info("Processed keyword: {$this->keyword} | keyword_planner_id: {$this->keyword_planner_id} | AIO: " . ($hasAio ? 'Yes' : 'No') . " | Client Mentioned: " . ($clientMentioned ? 'Yes' : 'No'));
 

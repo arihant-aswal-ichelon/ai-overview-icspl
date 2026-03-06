@@ -17,6 +17,7 @@ class AiOverview extends Model
         'keyword_request_id',
         'cluster_request_id',
         'keyword_planner_id',
+        'history_log_id',
         'text_blocks',
         'json',
         'markdown',

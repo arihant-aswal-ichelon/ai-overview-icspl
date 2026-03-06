@@ -16,6 +16,7 @@ class OrganicResult extends Model
         'keyword_request_id',
         'keyword_planner_id',
         'cluster_request_id',
+        'history_log_id',
         'position',
         'title',
         'link',

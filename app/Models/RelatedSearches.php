@@ -10,6 +10,6 @@ class RelatedSearches extends Model
     use HasFactory;
     protected $table = 'related_searches';
     protected $fillable = [
-        'id', 'domainmanagement_id', 'client_property_id', 'keyword_request_id', 'keyword_planner_id', 'cluster_request_id', 'query', 'link', 'json', 'created_at', 'updated_at'
+        'id', 'domainmanagement_id', 'client_property_id', 'keyword_request_id', 'keyword_planner_id', 'history_log_id', 'cluster_request_id', 'query', 'link', 'json', 'created_at', 'updated_at'
     ];
 }
