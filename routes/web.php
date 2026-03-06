@@ -129,13 +129,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/analyze-single-prompt-search-api', [GenerateAIOPromptAnalysisController::class, 'analyze_single_prompt_search_api'])->name('analyze.single.prompt.search.api');
     Route::post('/analyze-single-prompt-chatgpt', [GenerateAIOPromptAnalysisController::class, 'analyze_single_prompt_chatgpt'])->name('analyze.single.prompt.chatgpt');
 
-    Route::get('/AutoSyncAIOforclient', function () {
-
-        Artisan::call('AutoSyncAIOforclient:send');
-
-        return "Cron executed successfully";
-    });
 });
+Route::get('/AutoSyncAIOforclient', function () {Artisan::call('AutoSyncAIOforclient:send');return "Cron executed successfully";});
 Route::get('/queue',  [KeywordAnalysisController::class, 'queue'])->name('queue');
 Route::get('/check',  [KeywordAnalysisController::class, 'checkFunctions'])->name('check');
 Route::get('/printall',  [KeywordAnalysisController::class, 'printAllTables'])->name('printall');
