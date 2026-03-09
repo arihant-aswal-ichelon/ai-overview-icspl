@@ -1,18 +1,9 @@
-@extends('layouts.page-app')
-@section("content")
 <style>
     :root {
         --primary-color: #1a73e8;
         --secondary-color: #5f6368;
         --light-gray: #f8f9fa;
         --border-color: #dadce0;
-    }
-
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-        color: #202124;
-        background-color: #fff;
-        font-size: 14px;
     }
 
     .search-header {
@@ -81,7 +72,7 @@
     }
 
     .search-results-container {
-        max-width: 692px;
+        /* max-width: 692px; */
         margin: 0 auto;
     }
 
@@ -376,8 +367,6 @@
     }
 </style>
 
-<div class="page-content">
-    <div class="container-fluid">
         <!-- Header with Search Bar -->
         <header class="search-header">
             <div class="container-fluid">
@@ -385,19 +374,12 @@
                     <div class="panel panel-default">
                         <div class="panel-body">{{ $keywordRequest->keyword." > ".$keywordplanner->keyword_p}}</div>
                     </div>
-                    <div class="btn-sync-wrapper">
-                        <div class="sync-loading" id="sync_loading"></div>
-                        <button type="button" id="sync_now" class="btn btn-primary ms-3">
-                            <i class="bi bi-arrow-clockwise"></i> Sync Now
-                        </button>
-                    </div>
                 </div>
             </div>
         </header>
 
         <!-- Main Content -->
-        <main class="py-4">
-            <div class="container-fluid">
+        <div class="card p-5" >
                 <div class="row">
                     <!-- Search Results -->
 
@@ -687,7 +669,7 @@
                                 <div class="related-search-title">Related searches</div>
                                 <div>
                                     @foreach($relatedSearches as $relatedSearch)
-                                    <a href="{{ $relatedSearch->link }}" class="related-search-item {{$relatedSearch->id}}"  target="_blank"><i class="bi bi-search"></i> {{ $relatedSearch->query }}</a>
+                                    <a href="{{ $relatedSearch->link }}" class="related-search-item {{ $relatedSearch->id }}" target="_blank"><i class="bi bi-search"></i> {{ $relatedSearch->query }}</a>
                                     @endforeach
                                 </div>
                             </div>
@@ -743,14 +725,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </main>
-    </div>
-</div>
+        </div>
 
-@endsection
-
-@section("jscontent")
 <script>
     $(document).ready(function() {
         // People Also Ask toggle functionality
@@ -1143,4 +1119,3 @@
         });
     }
 </script>
-@endsection

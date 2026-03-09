@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DomainManagementController;
 use App\Http\Controllers\GenerateAIOPromptAnalysisController;
+use App\Http\Controllers\HistoryLogController;
 use App\Http\Controllers\KeywordAnalysisController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Log;
@@ -68,7 +69,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/fetch',  [KeywordAnalysisController::class, 'fetchGscUrls'])->name('fetchGscUrls');
     // Route::post('/get-aio-result', [KeywordAnalysisController::class, 'getAioResult'])->name('get-aio-result');
     Route::post('/get-aio-result', [KeywordAnalysisController::class, 'getAioResult'])->name('keyword-analysis.get-aio-result');
-    Route::get('/extracted-aio-result/{id}', [KeywordAnalysisController::class, 'extractedAioResult'])->name('extracted-aio-result');
+    Route::get('/extracted-aio-result/{id}/{history_log_id?}', [KeywordAnalysisController::class, 'extractedAioResult'])->name('extracted-aio-result');
 
     // Route::post('/store-keyword-data', [KeywordAnalysisController::class, 'storeKeywordData'])->name('store.keyword.data');
     Route::post('/store-keyword-planner', [KeywordAnalysisController::class, 'storeKeywordPlanner'])->name('store.keyword.planner');
@@ -129,7 +130,11 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/analyze-single-prompt-search-api', [GenerateAIOPromptAnalysisController::class, 'analyze_single_prompt_search_api'])->name('analyze.single.prompt.search.api');
     Route::post('/analyze-single-prompt-chatgpt', [GenerateAIOPromptAnalysisController::class, 'analyze_single_prompt_chatgpt'])->name('analyze.single.prompt.chatgpt');
 
+    Route::get('/history-log/{dmid}/{cpid}', [HistoryLogController::class, 'index'])->name('history.log');
+    Route::get('/history-log/{dmid}/{cpid}/{keywordPlannerId}', [HistoryLogController::class, 'showLogs'])->name('history.log.show');
+    Route::get('/history-log/{dmid}/{cpid}/{keywordPlannerId}/{historyLogId}/extracted', [HistoryLogController::class, 'getExtractedResult'])->name('history.log.extracted');
 });
+
 Route::get('/AutoSyncAIOforclient', function () {Artisan::call('AutoSyncAIOforclient:send');return "Cron executed successfully";});
 Route::get('/queue',  [KeywordAnalysisController::class, 'queue'])->name('queue');
 Route::get('/check',  [KeywordAnalysisController::class, 'checkFunctions'])->name('check');

@@ -1,0 +1,32 @@
+UPDATE `related_questions` o
+INNER JOIN (
+    SELECT 
+        `keyword_planner_id`,
+        DATE(MAX(`updated_at`)) AS max_date,
+        HOUR(MAX(`updated_at`)) AS max_hour
+    FROM `related_questions`
+    GROUP BY `keyword_planner_id`
+) AS latest 
+    ON o.`keyword_planner_id` = latest.`keyword_planner_id`
+    AND DATE(o.`updated_at`) = latest.max_date
+    AND HOUR(o.`updated_at`) = latest.max_hour
+SET o.`priority` = '1'
+WHERE o.`priority` = '0';
+
+SELECT 
+    COUNT(*) AS total_records,
+    o.`keyword_planner_id`,
+    MAX(o.`updated_at`) AS latest_updated_at,
+    DATE(MAX(o.`updated_at`)) AS latest_date_only
+FROM `related_questions` o
+INNER JOIN (
+    SELECT 
+        `keyword_planner_id`,
+        DATE(MAX(`updated_at`)) AS max_date
+    FROM `related_questions`
+    GROUP BY `keyword_planner_id`
+) AS latest 
+    ON o.`keyword_planner_id` = latest.`keyword_planner_id`
+    AND DATE(o.`updated_at`) = latest.max_date
+GROUP BY o.`keyword_planner_id`, DATE(o.`updated_at`), HOUR(o.`updated_at`)
+ORDER BY o.`keyword_planner_id`;

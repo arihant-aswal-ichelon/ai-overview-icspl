@@ -13,6 +13,7 @@ use App\Models\Client_propertiesModel;
 use App\Models\ClusterRequest;
 use App\Models\DomainManagementModel;
 use App\Models\GoogledataModel;
+use App\Models\HistoryLog;
 use App\Models\KeywordPlanner;
 use App\Models\KeywordRequest;
 use App\Models\MedianFetch;
@@ -919,22 +920,35 @@ class KeywordAnalysisController extends Controller
         return view('keyword-analysis.keyword-analysis', compact('keywordRequest', 'keywordplanner'));
     }
 
-    public function extractedAioResult($keyword_planner_id)
+    public function extractedAioResult($keyword_planner_id, $history_log_id = null)
     {
+        // dd($keyword_planner_id, $history_log_id);
         $organicResultsData = [];
         $relatedQuestionsData = [];
         $adsData = [];
+        $history_log_id = ($history_log_id ==null) ? HistoryLog::where('keyword_planner_id', $keyword_planner_id)->orderByDesc('id')->first()->id ?? null : $history_log_id;
 
-        $keywordplanner = KeywordPlanner::where('id', $keyword_planner_id)->first();
-        // dd($keywordplanner->toArray());
-        $keywordRequest = KeywordRequest::where('id', $keywordplanner->keyword_request_id)->first();
+        if($history_log_id){
+            $keywordplanner = KeywordPlanner::where('id', $keyword_planner_id)->first();
+            // dd($keywordplanner->toArray());
+            $keywordRequest = KeywordRequest::where('id', $keywordplanner->keyword_request_id)->first();
 
-        $organicResults = OrganicResult::where('keyword_planner_id', $keyword_planner_id)->get();
-        $relatedQuestions = RelatedQuestions::where('keyword_planner_id', $keyword_planner_id)->get();
-        $aiOverview = AiOverview::where('keyword_planner_id', $keyword_planner_id)->orderBy('priority_sync', 'asc')->get();
-        // dd($aiOverview->toArray());
-        $relatedSearches = RelatedSearches::where('keyword_planner_id', $keyword_planner_id)->get();
-
+            $organicResults = OrganicResult::where('keyword_planner_id', $keyword_planner_id)->where('history_log_id', $history_log_id)->get();
+            $relatedQuestions = RelatedQuestions::where('keyword_planner_id', $keyword_planner_id)->where('history_log_id', $history_log_id)->get();
+            $aiOverview = AiOverview::where('keyword_planner_id', $keyword_planner_id)->where('history_log_id', $history_log_id)->get();
+            // dd($aiOverview->toArray());
+            $relatedSearches = RelatedSearches::where('keyword_planner_id', $keyword_planner_id)->where('history_log_id', $history_log_id)->get();
+        }else{
+            
+            $keywordplanner = KeywordPlanner::where('id', $keyword_planner_id)->first();
+            $keywordRequest = KeywordRequest::where('id', $keywordplanner->keyword_request_id)->first();
+            
+            $organicResults = OrganicResult::where('keyword_planner_id', $keywordplanner->id)->get();
+            $relatedQuestions = RelatedQuestions::where('keyword_planner_id', $keyword_planner_id)->orderByDesc('id')->get();
+            // dd($relatedQuestions->toArray());
+            $aiOverview = AiOverview::where('keyword_planner_id', $keyword_planner_id)->orderBy('priority_sync', 'asc')->get();
+            $relatedSearches = RelatedSearches::where('keyword_planner_id', $keyword_planner_id)->orderByDesc('id')->get();
+        }
 
         // dd($keywordRequestdata->toArray());
 

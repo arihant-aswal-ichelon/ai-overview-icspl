@@ -132,6 +132,8 @@ class ProcessKeywordStatusJob implements ShouldQueue
 
             // Store Organic Results
             if (isset($searchData['organic_results'])) {
+                OrganicResult::where('keyword_planner_id', $this->keyword_planner_id)->whereNull('cluster_request_id')->update(['priority' => '0']);
+                
                 foreach ($searchData['organic_results'] as $result) {
 
                     $organicResultsData[] = [
@@ -140,6 +142,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         'keyword_request_id' => $this->keywordRequestId,
                         'keyword_planner_id' => $this->keyword_planner_id,
                         'history_log_id' => $this->historyLogId,
+                        'priority' => '1',
                         'position' => $result['position'] ?? null,
                         'title' => $result['title'] ?? null,
                         'link' => $result['link'] ?? null,
@@ -168,6 +171,8 @@ class ProcessKeywordStatusJob implements ShouldQueue
 
             // Store Related Questions
             if (isset($searchData['related_questions'])) {
+                RelatedQuestions::where('keyword_planner_id', $this->keyword_planner_id)->whereNull('cluster_request_id')->update(['priority' => '0']);
+
                 foreach ($searchData['related_questions'] as $question) {
                     if ($question['is_ai_overview'] ?? false) {
                         continue;
@@ -179,6 +184,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         'keyword_planner_id' => $this->keyword_planner_id,
                         'keyword_request_id' => $this->keywordRequestId,
                         'history_log_id' => $this->historyLogId,
+                        'priority' => '1',
                         'question' => $question['question'] ?? null,
                         'answer' => isset($question['answer']) ? $question['answer'] : ($question['markdown'] ?? null),
                         'source_title' => $question['source']['title'] ?? null,
@@ -201,7 +207,9 @@ class ProcessKeywordStatusJob implements ShouldQueue
                 }
             }
             // Store Related Searches
-            if (isset($searchData['related_searches'])) {   
+            if (isset($searchData['related_searches'])) {
+                RelatedSearches::where('keyword_planner_id', $this->keyword_planner_id)->whereNull('cluster_request_id')->update(['priority' => '0']);
+
                 foreach ($searchData['related_searches'] as $index => $relatedSearch) {
                     
                     $relatedSearchesData[] = [
@@ -210,6 +218,7 @@ class ProcessKeywordStatusJob implements ShouldQueue
                         'keyword_planner_id' => $this->keyword_planner_id,
                         'keyword_request_id' => $this->keywordRequestId,
                         'history_log_id' => $this->historyLogId,
+                        'priority' => '1',
                         'query' => $relatedSearch['query'] ?? null,
                         'link' => $relatedSearch['link'] ?? null,
                         'json' => $relatedSearch ? json_encode($relatedSearch, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) : null,
