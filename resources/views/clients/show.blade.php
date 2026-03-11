@@ -65,11 +65,11 @@
                                                                     <i class="mdi_icon mdi mdi-graphql text-muted"></i> Keyword Cluster Analysis
                                                                 </a>
                                                             </li> -->
-                                                            <li class="dropdown-item">
+                                                            <!-- <li class="dropdown-item">
                                                                 <a href="{{ url('aio-cluster-analysis/'.$lms->id) }}" class="btn btn-link " style="text-align:left; padding:0; border:none; background:none;">
                                                                     <i class="mdi_icon mdi mdi-graphql text-muted"></i> AIO Cluster Analysis
                                                                 </a>
-                                                            </li>
+                                                            </li> -->
                                                         </ul>
                                                     </div>
                                                 </td>

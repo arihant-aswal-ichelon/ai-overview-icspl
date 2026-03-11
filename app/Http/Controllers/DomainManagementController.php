@@ -293,6 +293,7 @@ class DomainManagementController extends Controller
         $client_propertie->type = $data["type"];
         $client_propertie->domainmanagement_id = $data["domainmanagement_id"];
         $client_propertie->domain = $data["domain"];
+        $client_propertie->frequency = $data["frequency_update"];
         
         
         if ($client_propertie->save()) {
@@ -351,12 +352,12 @@ class DomainManagementController extends Controller
         $data = [];
         $data = $request->all();
         $client_propertie = Client_propertiesModel::where("id", $data['id'])->first();
-        // dd($client_propertie);
-
+        
         $client_propertie->type = $data["type"];
         $client_propertie->domain = $data["domain"];
         $client_propertie->keyword_mentioned_array = $data["keyword_mentioned_array"];
-        
+        $client_propertie->frequency = $data["frequency_update"];
+
         if ($client_propertie->save()) {
             $request->session()->flash("message", "Client Property has been updated successfully");
             return redirect('/clients');
